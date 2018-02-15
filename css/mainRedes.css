@@ -1,0 +1,10 @@
+main{margin: 15px auto !important;}
+.fb-video, .fb-post
+{
+	float: left !important;
+	display: block !important;
+	width: 100%;
+	border-width: 1px !important;
+	border-color: #dec570 !important;
+	border-style: solid !important;
+}

@@ -1,0 +1,35 @@
+/* CSS Document
+*
+*   bege claro - dec570
+*	bege       - f3e9cc
+*	azul       - 7fada3
+*	marron     - 794f3d
+*   
+*
+*/
+
+/*base dos docmentos*/
+body{background: #f3e9cc; font-size: 100%;}
+body,
+header,
+main,
+footer
+{margin: 0; padding: 0; float: left; display: block; width: 100%; height: auto;}
+
+/*classe usadas frequentemente*/
+.scroll{overflow-x: hidden;}
+.marginNone{margin-top: 0 !important; margin-bottom: 0 !important;}
+.rowNone{margin-left: 0; margin-right: 0;}
+.paddingNone{padding-left: 0 !important; padding-right: 0 !important;}
+.paddingBottom{padding-bottom: 15px;}
+.menosMarginBottom{margin-bottom: -15px;}
+.relative{position: relative;}
+.position{position: absolute;}
+.formMob{width: 100% !important;}
+.formDesk{height: auto !important; padding: 15px 7px;}
+.height{height: 100%;}
+.backForm{background: #ede0b3; opacity: 0.78;}
+.backFormTrans{background: transparent !important; opacity: 1 !important;}
+/*.formAbsCad{position: absolute;}
+.formAbsAces{position: absolute; top: 40%;}
+.formAbsCont_rapido{position: absolute; top: 25%;}*/

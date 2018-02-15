@@ -1,0 +1,8 @@
+/*main-inicio.html*/
+main{margin-top: 20px; margin-bottom: 20px;}
+main > .container-fluid > .row > div > img{width: 100% !important;}
+.card-body{text-align: center;}
+.card-body p{font-size: 137% !important;}
+.card-text{min-height: 80px;}
+main > .container-fluid > .row > .card{margin-bottom:20px !important;}
+

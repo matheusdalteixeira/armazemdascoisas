@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*header*/
+header{font-size: 135%; background: #dec570;}
+header > nav{min-height: 150px !important; border: none; margin-bottom: 0 !important;}
+header > nav > .container-fluid > .collapse{margin-left: 270px;margin-top: 50px;}
+header > nav > .container-fluid > .navbar-header > a > img
+{height: 120px;}
+header > nav{background: transparent !important; border: none !important;}
+.navbar-header > button{margin-top: 50px; width: 50px; height: 50px !important; border: none; background: #794f3d !important;}
+.navbar-header > button > span{width: auto !important; text-align: center !important;}
+.collapse ul li > a{color: #000 !important; background: transparent !important; cursor: pointer; font-weight: bold; padding: 5px 15px !important;}
+.collapse ul li > a:focus,
+.collapse ul li > a:hover
+{color: #f3e9cc !important; background: #794f3d !important;}
+
+footer{background: #dec570;}
+footer>.container-fluid{padding: 20px 0;}
+footer>.container-fluid,
+footer>.container-fluid>.row,
+footer>.container-fluid>.row>div,
+footer>.container-fluid>.row>div>p
+{margin: 0;}
+footer>.container-fluid>.row>div>p{font-family: Acel; font-size: 137%; color: black;}
+footer>.container-fluid>.row>div:last-child>p{text-align: right;}
+/*medias*/
+@media screen and (max-width:767px){
+	/*header*/
+	header > nav > .container-fluid > .collapse{margin-left: 0px; margin-top: 0px;}
+	.collapse{border: none !important;}
+	.collapse ul{margin-top: 50px; border: 1px solid #794f3d; margin-right: 3px; background: #794f3d; opacity: 0.8;}
+	/*.collapse ul:nth-child(1){margin-bottom: 0px; border-bottom: none;}
+	.collapse ul:nth-child(2){margin-top: 0px;}*/
+	.collapse ul li{text-align: center;}
+	.card-body p{font-size: 130% !important;}
+
+	/*main-cadastro*/
+	main > .container-fluid > .row > div > form > div > button{min-width: 25%;}
+	/*main-acesso*/
+	/*footer*/
+	footer>.container-fluid>.row>div>p{text-align: center !important;}
+	footer>.container-fluid>.row>div:last-child>p{text-align: center !important;}
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	main > .container-fluid > .row > div > form > div > button{min-width: 30% !important;}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	main > .container-fluid > .row > div > form > div > button{min-width: 35% !important;}
+}
+@media screen and (min-width: 1200px){
+	main > .container-fluid > .row > div > form > div > button{min-width: 40% !important;}
+}

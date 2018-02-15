@@ -1,0 +1,55 @@
+main,
+main > .container-fluid,
+main > .container-fluid>.row,
+main > .container-fluid > .row > div
+{height: 100%;}
+main > .container-fluid>.row{margin-left: 0; margin-right: 0; width: 100%;}
+main > .container-fluid > img
+{width: 100%;}
+main > .container-fluid > .row > div,
+main > .container-fluid > .row > div > form,
+main > .container-fluid > .row > div > form > div,
+main > .container-fluid > .row > div > form > div > label,
+main > .container-fluid > .row > div > form > div > input,
+main > .container-fluid > .row > div > form > div > textarea,
+main > .container-fluid > .row > div > form > div > button
+{float:left; display: block;}
+label{font-size: 180% !important; background: #794f3d; color: white; text-align: center;}
+main > .container-fluid > .row > div > form
+{background: #ede0b3; opacity: 0.65; width: 100% !important;}
+.paddingDeskForm{padding: 7px !important;}
+.paddingMobForm{padding: auto !important;}
+main > .container-fluid > .row > div > form > div > input,
+main > .container-fluid > .row > div > form > div > textarea
+{font-size: 135% !important; font-weight: bold; letter-spacing: 1px;}
+main > .container-fluid > .row > div > form > div > label,
+main > .container-fluid > .row > div > form > div > input,
+main > .container-fluid > .row > div > form > div > textarea
+{height: 25px; line-height: 25px; margin-bottom: 10px;}
+main > .container-fluid > .row > div > form > div > label{width: 30%;}
+main > .container-fluid > .row > div > form > div > input,
+main > .container-fluid > .row > div > form > div > textarea
+{float: right; width: 70%; border-color: #dec570; color: #555;}
+main > .container-fluid > .row > div > form > div > textarea
+{min-height: 150px;}
+.labelTextarea{min-height: 150px; line-height: 150px !important;}
+/*main > .container-fluid > .row > div > form > div > button
+{border: none; padding-top: 10px; padding-bottom: 10px; background: #dec570; cursor: pointer;}*/
+button.comum{float: left; display: block;}
+button.right{float: right;}
+.width25{width: 25%;}
+.width50{width: 50%;}
+.width75{width: 75%;}
+.width100{width: 100%;}
+button.estilo{border: 2px solid #794f3d !important; background: white !important; color: #794f3d !important; cursor: pointer; font-size: 180% !important; font-weight: bolder !important; letter-spacing: 1px !important;}
+button.estilo:hover{background: #794f3d !important; color: white !important;}
+/*main > .container-fluid > .row > div > form > div > button:last-child
+{float: right;}
+main > .container-fluid > .row > div > form > div > button:hover
+{background: #794f3d !important; color: white;}*/
+main > .container-fluid > .row > div > form > div > div
+{padding: 0;}
+/*main > .container-fluid > .row > div > form > div > div > button
+{float: left; display: block; width: 100% !important; border: 2px solid #794f3d !important; background: white !important; color: #794f3d !important; cursor: pointer; font-size: 200% !important; font-weight: bolder !important; letter-spacing: 1px;}
+main > .container-fluid > .row > div > form > div > div > button:hover
+{background: #794f3d !important; color: white !important;}*/

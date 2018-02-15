@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+  <html lang="pt">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+      <title>Bem vindo - Armazém das coisa</title>
+      <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--[if lt IE9]
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      ![endif]-->
+      <link rel="stylesheet" href="css/geral.css">
+      <link rel="stylesheet" href="css/headerFooter.css">
+      <link rel="stylesheet" href="css/mainContato.css">
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/mudaImg.js"></script>
+  </head>
+  <body class="scroll">
+    <header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="inicio.html"><img src="imagens/logotipo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="sobre_o_armazem.php">História e localização</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Coisas<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="deComer.html">de comer</a></li>
+                  <li><a href="deBeber.html">de beber</a></li>
+                  <li><a href="deCasa.html">de casa</a></li>
+                  <li><a href="deFazer.html">de fazer</a></li>
+                  <li><a href="doces.html">doces</a></li>
+                  <li><a href="salgados.html">salgadas</a></li>
+                  <li><a href="deFazenda.html">da fazenda</a></li>
+                  <li><a href="espaçoComedoria.html">despaço comedoria</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contato<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cont_rapido.php"><span class="glyphicon glyphicon-flash"></span> Contato rápido</a></li>
+                  <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Cadastro</a></li>
+                  <li><a href="acesso.php"><span class="glyphicon glyphicon-log-in"></span> Acesso</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="marginNone relative">
+      <div class="container-fluid paddingNone">
+        <img src="">
+        <div class="row position">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 paddingNone ">
+            <form method="POST" action="dadosAces.php">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label for="">Email</label><input type="text">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label for="">Senha</label><input type="text">
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                  <button class="comum estilo width25">Entrar</button>
+                  <button class="comum estilo width75">Esqueci dados de acesso</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-ms-6 col-lg-6">
+            <p>Todos os direitos reservados ao ARMAZÉM DAS COISAS</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-ms-6 col-lg-6">
+            <p>Desenvolvido por <a href="www.yelowbird.com.br">yellow bird</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
