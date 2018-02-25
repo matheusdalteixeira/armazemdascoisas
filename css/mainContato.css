@@ -1,3 +1,4 @@
+
 main,
 main > .container-fluid,
 main > .container-fluid>.row,
@@ -53,3 +54,19 @@ main > .container-fluid > .row > div > form > div > div
 {float: left; display: block; width: 100% !important; border: 2px solid #794f3d !important; background: white !important; color: #794f3d !important; cursor: pointer; font-size: 200% !important; font-weight: bolder !important; letter-spacing: 1px;}
 main > .container-fluid > .row > div > form > div > div > button:hover
 {background: #794f3d !important; color: white !important;}*/
+@media screen and (max-width: 768px){
+	main > .container-fluid > .row > div > form > div > input,
+	main > .container-fluid > .row > div > form > div > textarea
+	{font-size: 90% !important; font-weight: bold; letter-spacing: 1px;}
+	main > .container-fluid > .row > div > form > div > label,
+	main > .container-fluid > .row > div > form > div > input,
+	main > .container-fluid > .row > div > form > div > textarea
+	{height: 20px; line-height: 20px; margin-bottom: 5px;}
+	main > .container-fluid > .row > div > form > div > label{width: 30%;}
+	main > .container-fluid > .row > div > form > div > input,
+	main > .container-fluid > .row > div > form > div > textarea
+	{float: right; width: 70%; border-color: #dec570; color: #555;}
+	main > .container-fluid > .row > div > form > div > textarea
+	{min-height: 100px;}
+	.labelTextarea{min-height: 100px; line-height: 100px !important;}
+}
