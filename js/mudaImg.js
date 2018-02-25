@@ -8,7 +8,7 @@ $(document).ready(function() {
 	var estilo 		= $('.estilo');
 
 	if(larguraTela < 768){
-		imagem.attr('src', 'imagens/fundo.jpg').load(function(){
+		imagem.attr('src', 'imagens/fundo.JPG').load(function(){
 			relativeRow.css('top', '0').addClass('backForm');
 			form.addClass('formMob').addClass('position').addClass('backFormTrans').css('top', (imagem.height()-form.height())/2);
 			//estilo.addClass('width100');
@@ -27,7 +27,7 @@ $(document).ready(function() {
 		var nLarguraTela	= tela.width();
 
 		if(larguraTela < 768){
-			imagem.attr('src', 'imagens/fundo.jpg').load(function(){
+			imagem.attr('src', 'imagens/fundo.JPG').load(function(){
 				relativeRow.css('top', '0').addClass('backForm');
 				form.removeClass('formDesk').addClass('formMob').addClass('position').addClass('backFormTrans').css('top', (imagem.height()-form.height())/2);
 				//estilo.removeClass('width50').addClass('width100');
