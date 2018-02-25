@@ -8,11 +8,7 @@ $(document).ready(function() {
 	var estilo 		= $('.estilo');
 
 	if(larguraTela < 768){
-		imagem.attr('src', 'imagens/fundo.jpg').load(function(){
-			relativeRow.css('top', '0').addClass('backForm');
-			form.addClass('formMob').addClass('position').addClass('backFormTrans').css('top', (imagem.height()-form.height())/2);
-			//estilo.addClass('width100');
-		});
+		imagem.attr('src', 'imagens/fundo.jpg');
 	}
 	else{
 		imagem.attr('src', 'imagens/fundo1.jpg').load(function(){
